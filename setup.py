@@ -11,7 +11,7 @@ except (ImportError, IOError, RuntimeError) as e:
     print(str(e))
     LDESC = ''
 
-setup(name='urqmd_tools',
+setup(name='urqmd-tools',
       version = '0.9.dev0',
       description = 'Python tools that facilitate working with UrQMD',
       long_description = LDESC,
@@ -22,8 +22,8 @@ setup(name='urqmd_tools',
       packages = find_packages(),
       entry_points = {
           'console_scripts': [
-              'urqmd_tools.pids = urqmd_tools.pids:main',
-              'urqmd_tools.parser.f14 = urqmd_tools.parser.f14:main',
+              'urqmd-tools.pids = urqmd_tools.pids:main',
+              'urqmd-tools.parser.f14 = urqmd_tools.parser.f14:main',
           ],
       },
       include_package_data = False,
