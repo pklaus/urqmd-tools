@@ -24,6 +24,7 @@ setup(name='urqmd-tools',
           'console_scripts': [
               'urqmd-tools.pids = urqmd_tools.pids:main',
               'urqmd-tools.parser.f14 = urqmd_tools.parser.f14:main',
+              'urqmd-tools.launcher = urqmd_tools.launcher.__init__:main',
           ],
       },
       include_package_data = False,
