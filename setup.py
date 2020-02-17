@@ -23,6 +23,7 @@ setup(name='urqmd_tools',
       entry_points = {
           'console_scripts': [
               'urqmd_tools.pids = urqmd_tools.pids:main',
+              'urqmd_tools.parser.f14 = urqmd_tools.parser.f14:main',
           ],
       },
       include_package_data = False,
