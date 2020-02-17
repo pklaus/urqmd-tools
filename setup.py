@@ -32,6 +32,7 @@ setup(name='urqmd-tools',
       platforms = 'any',
       install_requires = [
           'attrs',
+          'cached_property',
       ],
       extras_require = {
       },
